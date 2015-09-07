@@ -1,0 +1,219 @@
+table tr td{
+	vertical-align: middle !important;
+}
+.btn-left, .input-left{
+	float: left;
+}
+.btn-right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.btn-margin, div#ot_original .btn-right{
+	margin: 10px 10px;
+}
+.radio-inline{
+	float: left;
+	margin: 10px !important;
+}
+ul#lista_colores li {
+	padding: 0px;
+	list-style: none;
+	margin: 10px 0px;
+}
+ul#lista_colores{
+	padding: 0px;
+}
+#sortable1, #sortable2, #sortable3 { 
+	list-style-type: none;
+	margin: 0; 
+	padding: 0; 
+	float: left; 
+	margin-right: 10px;
+	background: #eee; 
+	padding: 5px; 
+	width: 143px;
+}
+#sortable1 li, #sortable2 li, #sortable3 li { 
+	margin: 5px; 
+	padding: 5px; 
+	font-size: 1.2em; 
+	width: 120px; 
+}
+#sortable2{
+	min-height: 60px;
+}
+.white{
+  background-color: white;
+}
+
+.btn_agregar_pieza{
+}
+.ruta_guia, .entrega_guia,.ancho_terminacion{
+  /*min-height: 110px;*/
+  min-height: 60px;
+}
+.agrupar_pieza table{
+	margin: 10px;
+}
+.agrupar_pieza:first-child{
+	margin-top: 0px;
+}
+
+table td , table th{
+  text-align: center !important;
+}
+ul#lista_mezcla {
+  padding: 0px;
+}
+ul#lista_mezcla li  {
+  padding: 5px 0px !important;
+  list-style: none;
+}
+.lista_componentes{
+  border: 1px solid rgb(219, 219, 219);
+}
+.dataTables_filter{
+  float: right;
+}
+
+/*dividir OT*/
+.list_ot  {
+	padding: 0px;
+	list-style: none;
+/*
+	padding-left: 0;
+	width: 100%;
+	background: rgb(219, 219, 219);
+	float: left;
+	margin: 10px; 
+	padding: 5px;
+*/
+	cursor: pointer;
+}
+.box_ot{
+	background: rgb(219, 219, 219);
+}
+.list_ot_active{
+	background: rgb(244, 244, 244)!important;
+}
+#tbl_dividir_ot{
+	background: white;
+}
+
+.box_ot_division .box_ot {
+	margin: 5px 10px;
+}
+#list .sort-handle {
+	display: none;
+}
+
+#list .ui-selected .sort-handle
+ {
+	display: inline;
+	padding: 0 0.5em;
+	cursor: pointer;
+}
+
+li.ui-selected {
+	background-color: #8888cc;
+	color: white;
+	font-weight: bold;
+	background-image: none;
+}
+li.ui-selecting {
+	background-color: #ccccff;
+	color: white;
+	background-image: none;
+}
+.controles{
+	width: 100%;
+	height: 30px;
+	padding: 10px 0px 0px 10px;
+}
+#ot_original, #tbl_dividir_ot{
+	background-color: white;
+}
+/*FIN dividir OT*/
+
+
+/* ======================
+		maquinaria
+   ======================
+*/
+.disponibilidad_maq_media{
+	color: yellow;
+}
+.disponibilidad_maq_alta{
+	color: red;
+}
+.disponibilidad_maq_baja{
+	color: green;
+}
+
+/* ======================
+		productos
+   ======================
+*/
+
+.prd_stock,.prd_agotado{
+	font-size: 90%;
+}
+.prd_stock{
+	color: green;
+}
+.prd_agotado{
+	color:red;
+}
+.#example1_filter'{
+	float: right;
+}
+#add_prd,#add_bodega, #add_precio {
+	width: 50%;
+	float: left
+}
+.eliminar_prd ,.modificar_prd{
+	padding: 2px;
+}
+/* ======================
+		guias
+   ======================
+*/
+.cliente-box .checkbox{
+	margin: 15px 0px;
+}
+/* ======================
+		guias
+   ======================
+*/
+.reporte_desde,.reporte_hasta{
+	border: 1px solid rgb(219, 219, 219);
+	padding: 10px;
+}
+
+/* ======================
+		index
+   ======================
+*/
+
+.inner {
+	min-height: 100px;
+}
+.index_footer_lab{
+	margin: 0px auto;
+	width: 250px; 
+}
+
+.index_footer_lab a:not(:first-child){
+	border-left: 2px solid rgb(66, 151, 198);
+}
+.index_footer_lab a{
+	padding: 0px 10px;
+}
+.orden_lab_ok{
+	
+}
+.orden_lab_no{
+
+}
